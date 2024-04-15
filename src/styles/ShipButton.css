@@ -1,0 +1,22 @@
+.Ship-btn {
+    height: 100px;
+    width: 100px;
+    background: rgba(242, 241, 243, 0.4);
+    box-shadow: 2px 2px 2px gray;
+    margin: 15px;
+    box-sizing: content-box;
+}
+
+.Ship-btn:hover {
+    border: 3px solid #03AED1;
+}
+
+.Ship-icon {
+    width: 70%;
+    height: auto;
+}
+
+.Shipbtn-name {
+    padding: 2px;
+    font-size: 1rem;
+}

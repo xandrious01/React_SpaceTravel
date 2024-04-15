@@ -1,0 +1,19 @@
+.Error-div {
+    position: relative;
+    top: 80px;
+    border: 2px solid #F1F2F3;
+    border-radius: 5px;
+    padding: 40px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(242, 241, 243, 0.7);
+    text-align: center;
+
+}
+
+.Error-text {
+    text-justify: center;
+    color: #01343f;
+}

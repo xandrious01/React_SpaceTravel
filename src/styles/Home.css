@@ -1,0 +1,48 @@
+.Home-div {
+    position: relative;
+    top: 80px;
+    border: 2px solid #F1F2F3;
+    border-radius: 5px;
+    padding: 40px;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(242, 241, 243, 0.7);
+
+}
+
+.Home-title-div {
+    text-align: center;
+}
+
+.Home-title {
+    text-justify: center;
+    color: #01343f;
+}
+
+.Home-text-div {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Home-title-div {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Home-text-header-div {
+    padding: 5px;
+
+}
+
+.Home-header {
+    font-size: 1.7rem;
+
+}
+
+.Home-text {
+    font-size: 1.5rem;
+    line-height: 100%;
+}

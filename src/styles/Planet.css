@@ -1,0 +1,29 @@
+
+.Planet-img {
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px gray;
+}
+
+.Planet-title {
+    font-size: 2rem;
+    padding: 2px;
+}
+
+.Planet-info {
+    font-size: 1.5rem;
+    line-height: 55%;
+}
+
+.Planet-info-col {
+    padding: 0;
+
+}
+
+.Planet-select-btn {
+    height: 3rem;
+    font-size: 51.5rem;
+    color: #13374D;
+    border-color: #13374D;
+}
+

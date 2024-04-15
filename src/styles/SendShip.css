@@ -1,0 +1,34 @@
+
+.SendShip-div {
+    background: rgba(242, 241, 243, 0.7);
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+ }
+ 
+ p {
+    font-size: 2rem;
+ }
+
+ #launch-btn {
+    font-size: 1.5rem;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.SendShip-error {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.SendShip-success {
+    color: green;
+    font-size: 3rem;
+}

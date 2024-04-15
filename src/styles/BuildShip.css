@@ -1,0 +1,38 @@
+.BuildShip-form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BuildShip-form-label {
+    font-size: 1.5rem;
+}
+
+.BuildShip-div {
+    position: relative;
+    top: 80px;
+    border: 2px solid #F1F2F3;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(242, 241, 243, 0.7);
+    
+}
+
+.BuildShip-btn {
+    display: block;
+    margin: 40px auto 40px auto;
+    padding: 5px;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.BuildShip-form-msg {
+    font-size: 1.2rem;
+}

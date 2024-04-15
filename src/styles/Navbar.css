@@ -1,0 +1,10 @@
+.Navbar-tab{
+    font-size: 2rem;
+    padding-top: 50px;
+    margin-top: 50px;
+    color: #03AED1;
+}
+
+.Navbar-tab:active{
+    color: #03AED1
+}
