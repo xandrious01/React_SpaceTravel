@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Button } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import '../styles/SendShip.css'
+import PlanetsContext from "../context/PlanetsContext";
 
 
-const SendShip = ({ planets, ships, selectedElements, launchShip, flightSuccessful }) => {
+const SendShip = ({ ships, selectedElements, launchShip, flightSuccessful }) => {
     const { spacecraftId, targetPlanetId } = selectedElements;
     const [hasError, setHasError] = useState(null);
+    const planets = useContext(PlanetsContext)
 
     let planetName;
     let shipName;

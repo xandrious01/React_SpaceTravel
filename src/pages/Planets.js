@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import SpaceTravelApi from "../services/SpaceTravelApi";
+import PlanetsContext from "../context/PlanetsContext";
 import Planet from "../components/Planet";
 import LoadingGraphic from "../components/LoadingGraphic";
 import ShipButton from "../components/ShipButton";
@@ -81,9 +82,9 @@ const Planets = () => {
         )
     } else if (isLoading === false) {
         return (
+            <PlanetsContext.Provider value={planets}>
             <div>
                 <SendShip
-                    planets={planets}
                     ships={ships}
                     selectedElements={selectedElements}
                     launchShip={launchShip}
@@ -125,7 +126,7 @@ const Planets = () => {
                     </ul>
                 </Container>
             </div>
-
+            </PlanetsContext.Provider>
 
         )
     } else if (error) {
