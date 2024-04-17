@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import SpaceTravelApi from "../services/SpaceTravelApi";
@@ -32,12 +32,14 @@ const BuildShip = () => {
         e.preventDefault();
         const form = e.currentTarget;
         if (form.checkValidity() === false) {
-            e.preventDefault();
             e.stopPropagation();
         }
-        setValidated(true)
-        buildSpacecraft({ ...formData, capacity: formData.capacity * 1 });
-            navigate('/spacecrafts');
+        setValidated(true);
+        if (form.checkValidity() === true){
+          buildSpacecraft({ ...formData, capacity: formData.capacity * 1 });
+            navigate('/spacecrafts');  
+        }
+        
     };
 
     return (
